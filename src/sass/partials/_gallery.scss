@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+  margin-left: auto;
+  margin-right: auto;
+  @media (min-width: 1280px) {
+    max-width: 1280px;
+  }
+}
+.picture {
+  display: block;
+  margin: 0;
+  max-width: 100%;
+  height: auto;
+}
+.gallery-img {
+  width: 100%;
+}
+.gallery {
+  padding-bottom: 80px;
+  @media screen and (min-width: 768px) {
+    padding-bottom: 60px;
+  }
+  @media screen and (min-width: 1280px) {
+    padding-bottom: 61px;
+  }
+}

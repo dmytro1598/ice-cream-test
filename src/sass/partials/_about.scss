@@ -1,0 +1,170 @@
+.about-section {
+  background-color: #fff5f6;
+  padding-top: 125px;
+  padding-left: 20px;
+  padding-right: 20px;
+  padding-bottom: 40px;
+}
+
+@media (max-width: 480px), (min-width: 1200px) {
+  .about-section {
+    min-width: 320px;
+    background-image: url(../images/about/secbg-mob2x.png);
+    background-size: contain;
+    background-origin: padding-box;
+    background-position: center bottom 70px;
+    background-repeat: no-repeat;
+  }
+}
+
+.about-container {
+  text-align: center;
+}
+.about-span {
+  font-family: Titan One;
+  color: #ffa5ba;
+  font-size: 18px;
+  line-height: 0.86;
+
+  text-transform: uppercase;
+  text-align: center;
+}
+
+.about-title {
+  font-family: Titan One;
+  color: #d41443;
+  font-size: 34px;
+  line-height: 0.87;
+  text-align: center;
+  letter-spacing: 0.04em;
+  text-transform: uppercase;
+  margin-bottom: 26px;
+  margin-top: 15px;
+}
+.about-photo {
+  margin: 0 auto;
+}
+.about-picture {
+  width: 220px;
+}
+.about-text {
+  padding: 20px;
+  min-width: 220px;
+  text-align: center;
+}
+.about-text__pre-info {
+  font-family: DM Sans;
+  color: #000000;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 162%;
+  text-align: left;
+  margin-bottom: 46px;
+}
+.about-text__info {
+  font-family: DM Sans;
+
+  color: #907e82;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 162%;
+  text-align: left;
+}
+.info-t {
+  display: block;
+  margin-top: 15px;
+}
+
+.about-btn {
+  width: 176px;
+  height: 44px;
+  background-color: #ffffff;
+  color: #d41443;
+  border-radius: 22px;
+  border: transparent;
+  font-family: DM Sans;
+  font-style: normal;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 0.78;
+  text-align: center;
+  margin-top: 20px;
+
+  .about-btn:hover,
+  .about-btn:focus {
+    background-color: #ecebeb;
+  }
+}
+.about-btn::after {
+  content: '>';
+  width: 6px;
+  height: 8px;
+  vertical-align: middle;
+  margin-left: 10px;
+  font-size: 16px;
+  border: 2px;
+  text-transform: uppercase;
+}
+@media screen and (min-width: 768px) {
+  .about-section {
+    padding-left: 40px;
+    padding-right: 40px;
+  }
+  .about-span {
+    font-size: 26px;
+    line-height: 0.87;
+  }
+  .about-title {
+    font-size: 48px;
+    line-height: 0.87;
+    letter-spacing: 0.04em;
+  }
+  .about-photo {
+    display: flex;
+    align-items: flex-start;
+    justify-content: space-between;
+    flex-grow: 1;
+  }
+  .about-picture {
+    width: 340px;
+  }
+  .about-text {
+    align-items: flex-end;
+    width: 340px;
+    margin-bottom: 40px;
+    margin-top: 40px;
+  }
+  .about-btn {
+    margin-top: 40px;
+    margin-right: 120px;
+  }
+}
+@media screen and (min-width: 1199px) {
+  .about-section {
+    padding-left: 112px;
+    padding-right: 112px;
+  }
+  .about-span {
+    font-size: 30px;
+    line-height: 0.88;
+  }
+  .about-title {
+    font-size: 58px;
+    line-height: 0.88;
+    font-weight: 500;
+    text-align: center;
+    letter-spacing: 0.06em;
+  }
+  .about-text {
+    width: 460px;
+    margin: 0;
+    font-size: 16px;
+    line-height: 176%;
+    letter-spacing: 0.04em;
+    margin-bottom: 50px;
+    margin-top: 100px;
+  }
+  .about-btn {
+    margin-right: 250px;
+  }
+}
